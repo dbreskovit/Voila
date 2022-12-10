@@ -1,0 +1,289 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+.main-head {
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    background-image: url(../img/logo_degrade.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        margin-top: 10%;
+    }
+
+    .register-form {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin-left: 40%;
+    }
+
+    .sidenav {
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form {
+        margin-top: 60%;
+    }
+
+    .register-form {
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text {
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2 {
+    font-weight: 300;
+}
+
+
+
+.btn-grad-orange {
+    background-image: linear-gradient(to right, #FF4B2B 0%, #FF416C 51%, #FF4B2B 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+}
+
+.btn-grad-orange:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+/* Prevent scroll on narrow devices */
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 56px;
+}
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed;
+        top: 56px;
+        /* Height of navbar */
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #343a40;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+    color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+    color: #007bff;
+}
+
+.nav-underline .active {
+    font-weight: 500;
+    color: #343a40;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, .5);
+}
+
+.bg-purple {
+    background-color: #6f42c1;
+}
+
+
+.img__profile {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.icon__navbar {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon__navbar:hover {
+    color: #fff;
+}
+
+
+.assunto {
+    width: 1100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.box {
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+.responder {
+    text-decoration: none;
+}
+
+
+.perguntar__forms {
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+.box__text {
+    width: 600px;
+    text-align: justify;
+}
+
+.secao {
+    width: 800px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px auto 50px auto;
+}
+
+.secao_title {
+    width: 800px;
+    padding: 0 auto;
+    margin:0 auto;
+}
+
+
+.box__user {
+    margin: 0 0 20px 0;
+    padding: 0%;
+    display: flex;
+    font-size: 14px;
+    white-space: nowrap;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.box__user--nickname, .box__user--turma {
+    margin: 0 10px;
+}
+
+.box__user--nickname {
+    font-weight: bold;
+}
+
+.radius{
+    border-radius: 50px !important;
+}
+
+.box__resp{
+    margin: 0 0 20px 0;
+    padding: 0%;
+    display: flex;
+    font-size: 14px;
+    white-space: nowrap;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.secao_resp{
+    width: 800px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    padding: 20px 20px 30px 20px;
+    margin: 25px auto 0 auto;
+}
