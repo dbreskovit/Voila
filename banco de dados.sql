@@ -1,9 +1,9 @@
--- --------------------------------------------------------
--- Servidor:                     127.0.0.1
--- Versão do servidor:           5.7.17 - MySQL Community Server (GPL)
--- OS do Servidor:               Win32
--- HeidiSQL Versão:              11.3.0.6295
--- --------------------------------------------------------
+
+
+
+
+
+
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET NAMES utf8 */;
